@@ -10,7 +10,7 @@ function App() {
     return (
         <div className="App">
             <Provider store={store}>
-                <BrowserRouter basename="/React-Ecommerce-App" >
+                <BrowserRouter>
                     <Navbar />
                     <Routes>
                         <Route path="/" element={<Home />}></Route>
